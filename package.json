@@ -34,6 +34,7 @@
     "@angular/compiler-cli": "~13.3.0",
     "@schuchard/prettier": "^5.1.0",
     "@types/node": "^12.11.1",
+    "angular-cli-ghpages": "^1.0.0",
     "husky": "latest",
     "lint-staged": "latest",
     "prettier": "latest",
