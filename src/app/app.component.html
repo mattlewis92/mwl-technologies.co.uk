@@ -1,116 +1,29 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">MWL Technologies</a>
-    <button class="navbar-toggler" type="button" (click)="toggleMenu()">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" [ngbCollapse]="!isMenuVisible">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="#about" (click)="closeMenu()"
-            ><i class="bi bi-info-circle pe-1"></i> About us</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#hire" (click)="closeMenu()"
-            ><i class="bi bi-briefcase pe-1"></i> Hire us</a
-          >
-        </li>
-      </ul>
-      <ul class="navbar-nav d-flex">
-        <li>
-          <a
-            class="nav-link"
-            [href]="email"
-            target="_blank"
-            (click)="closeMenu()"
-          >
-            <i class="bi bi-envelope pe-1"></i> Email us
-          </a>
-        </li>
-      </ul>
-    </div>
   </div>
 </nav>
 
 <section id="about" class="bg-success py-3">
   <div class="container">
-    <h2>About us</h2>
+    <h2>
+      MWL Technologies Ltd - in creditors' voluntary liquidation ("the Company")
+    </h2>
 
     <p>
-      We are a full stack software engineering agency based out of London UK
-      with over 14 years experience working with small startups and larger
-      enterprises.
+      The Company has ceased to trade and went into solvent liquidation on 1
+      December, 2023.
     </p>
 
     <p>
-      We are available for short to medium term contracting work, either on site
-      in London or remotely around the world.
-    </p>
-
-    <p class="mb-0">
-      Our key skills are in Typescript (Angular and Node.js), HTML, CSS, Ionic,
-      nx, webpack and Firebase.
+      For further information please contact the liquidator at:<br />
+      F A Simms & Partners Limited<br />
+      Alma Park, Woodway Lane<br />
+      Claybrooke Parva<br />
+      Lutterworth<br />
+      Leicestershire<br />
+      LE17 5FB<br />
+      Telephone: 01455 555 444
     </p>
   </div>
 </section>
-
-<section id="hire" class="py-3">
-  <div class="container">
-    <h2>Hire us</h2>
-    <div>
-      <p>Things we can help you with:</p>
-      <ul>
-        <li>
-          Anything Angular related, including, but not limited to: component
-          design and implementation, migration strategies from AngularJS to
-          Angular, high level architectural planning and performance
-          optimisations. We have been using AngularJS since version 1.0 was
-          released in 2012.
-        </li>
-        <li>
-          We are extremely proficient at building mobile apps with the ionic
-          framework, and have shipped full blown apps from concept to production
-          in just a few months.
-        </li>
-        <li>
-          We have a very deep knowledge of build tooling, especially webpack and
-          nx, and have frequently contributed back to its ecosystem of plugins
-          and loaders. We can fine tune configuration to optimise build times,
-          reduce bundle sizes to as small as possible, and demystify the inner
-          workings to members of your team.
-        </li>
-        <li>
-          We have lots of experience configuring CI systems to automatically run
-          tests on every build, and automatically deploy to beta and production
-          environments.
-        </li>
-        <li>
-          We are firm believers in writing robust and maintainable code. All of
-          the code we write follows industry best practises, and is well tested.
-        </li>
-        <li>
-          We are extremely well versed in the Javascript language as a whole,
-          aware of all of its strengths and weaknesses, and we are up to date
-          with using the latest esnext features. Consequently, we are very
-          comfortable working on projects outside of the angular framework, such
-          as in node or react.
-        </li>
-        <li>
-          Finally, as a result of many years working with startups, we are very
-          comfortable working to tight time scales to get a project over the
-          line to completion.
-        </li>
-      </ul>
-    </div>
-
-    <p class="mb-0">
-      If you would like to hire us for our services, then please
-      <a [href]="email" target="_blank">email us</a> for more information!
-    </p>
-  </div>
-</section>
-
-<footer class="text-center bg-primary text-light py-3">
-  Copyright {{ year }} MWL Technologies
-</footer>
